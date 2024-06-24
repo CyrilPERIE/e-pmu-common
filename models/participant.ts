@@ -28,6 +28,7 @@ export interface Participant {
   nomMere: string;
   nomPereMere: string;
   ordreArrivee: number;
+  ordreArriveeEstimee?: number;
   jumentPleine: boolean;
   engagement: boolean;
   supplement: number;
